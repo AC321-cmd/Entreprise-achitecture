@@ -209,12 +209,13 @@
     <element xsi:type="archimate:Outcome" name="Fewer missed first attempts" id="id-a1995f7447244ffbb8ee206ebfcd24cf"/>
     <element xsi:type="archimate:Requirement" name="Carrier-neutral overview of all parcels" id="id-907c3d7b90514f4385399aea94dabfad"/>
     <element xsi:type="archimate:Requirement" name="Delivery optimisation based on recipient profile" id="id-b05e25b59e9d46ec82a8eef19bd25c01"/>
-    <element xsi:type="archimate:Principle" name="Privacy by design: opt-in profile" id="id-88f311933a444d1282786a33b330a350"/>
+    <element xsi:type="archimate:Principle" name="Personal data is only used with the recipient’s consent" id="id-88f311933a444d1282786a33b330a350"/>
     <element xsi:type="archimate:Outcome" name="Prototype shows parcels of several carriers" id="id-c8bbf03e7c84455a87f1d71caec7a74d"/>
     <element xsi:type="archimate:Outcome" name="Parcel overview live for Belgian pilot users" id="id-44fd76b8097545e79e961da4386f493c"/>
     <element xsi:type="archimate:Outcome" name="Recipient profiles collected with opt-in" id="id-ba0db5a531234045a4c346efc5ca9558"/>
     <element xsi:type="archimate:Outcome" name="Delivery recommendation live for Belgian users" id="id-b74e441bf6574e60a0fb87e78917db3e"/>
     <element xsi:type="archimate:Outcome" name="Offer for carriers and webshops live in the Benelux" id="id-977fe932f8dc409eb08db66a9a6d1749"/>
+    <element xsi:type="archimate:Requirement" name="A recipient profile is created only after explicit opt-in" id="id-faf6eae86b8d48a28435e10e4e2fb265"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-c05d0808347a4dfa8fbbe3df663b963c" type="implementation_migration">
     <element xsi:type="archimate:Plateau" name="3 months: prototype" id="id-99a5e834cc53418e82c2133febf2f3f8">
@@ -370,6 +371,8 @@
     <element xsi:type="archimate:ServingRelationship" id="id-69c8784b38824b6fb2230acf2fa69e55" source="id-95a7eba1357448e5963d22540592fa51" target="id-3828654bbd0c45c1bd595c0015268a2e"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f6331b52d1894f17ba98ae4573817cbc" source="id-1f0809a2c600440db71a1c5a3ba2bdd1" target="id-95a7eba1357448e5963d22540592fa51"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-62c2b0f46f1446969574675e1d0566da" source="id-b717039b6c3e457795646bb7405d28eb" target="id-4574fd556b844770ad1971e1fe84aab0"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-df6d9a52199146bbabb7ecf1625c6321" source="id-faf6eae86b8d48a28435e10e4e2fb265" target="id-88f311933a444d1282786a33b330a350"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-a51184f4b0f14813aa444db75a262e79" source="id-faf6eae86b8d48a28435e10e4e2fb265" target="id-b05e25b59e9d46ec82a8eef19bd25c01"/>
   </folder>
   <folder name="Views" id="id-9af669fd886e4a3696a5e12a25cd8978" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Motivation View" id="id-b03fa0d0962d411887b11d5dd8beb83c">
@@ -405,13 +408,17 @@
         <bounds x="20" y="400" width="170" height="60"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b9d9e65d471748e38013d73dac838618" source="id-f468bf375eda4b12909e1642c3f14f0d" target="id-8a5d8b2d6c3f41a9b2c330bbea7e7596" archimateRelationship="id-3ee8a6a2db3748989536350223390253"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-20c5224e735344ab97582afea7d4fd50" archimateElement="id-b05e25b59e9d46ec82a8eef19bd25c01">
+      <child xsi:type="archimate:DiagramObject" id="id-20c5224e735344ab97582afea7d4fd50" targetConnections="id-daa512ad334b4bdfb1495dbbdefab306" archimateElement="id-b05e25b59e9d46ec82a8eef19bd25c01">
         <bounds x="260" y="400" width="170" height="60"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2705d04bb68d49f38a639f79f931f832" source="id-20c5224e735344ab97582afea7d4fd50" target="id-8a5d8b2d6c3f41a9b2c330bbea7e7596" archimateRelationship="id-e365db83b4d94f979d85816f5ef42068"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-095bee55cff44120acba77fbff45acd4" source="id-20c5224e735344ab97582afea7d4fd50" target="id-d83adb25ce044bdfa73d3c705e57bbc5" archimateRelationship="id-97739023218c48548446bc383b015ff5"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-d83adb25ce044bdfa73d3c705e57bbc5" targetConnections="id-095bee55cff44120acba77fbff45acd4" archimateElement="id-88f311933a444d1282786a33b330a350">
-        <bounds x="500" y="400" width="170" height="60"/>
+      <child xsi:type="archimate:DiagramObject" id="id-d83adb25ce044bdfa73d3c705e57bbc5" targetConnections="id-737672c8c65842af9eb74f109aa2cdad" archimateElement="id-88f311933a444d1282786a33b330a350">
+        <bounds x="696" y="400" width="170" height="60"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1d3f348ed1094531ab7c399b0033a3b4" archimateElement="id-faf6eae86b8d48a28435e10e4e2fb265">
+        <bounds x="480" y="402" width="170" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-737672c8c65842af9eb74f109aa2cdad" source="id-1d3f348ed1094531ab7c399b0033a3b4" target="id-d83adb25ce044bdfa73d3c705e57bbc5" archimateRelationship="id-df6d9a52199146bbabb7ecf1625c6321"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-daa512ad334b4bdfb1495dbbdefab306" source="id-1d3f348ed1094531ab7c399b0033a3b4" target="id-20c5224e735344ab97582afea7d4fd50" archimateRelationship="id-a51184f4b0f14813aa444db75a262e79"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Strategy View" id="id-5f4e0c94374c498dbae06594a8bb4f36">
