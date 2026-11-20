@@ -1133,7 +1133,7 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ed460e2b9cab4c8c9e353bd6a0688d5f" fillColor="#fff2cc" archimateElement="id-8b77c28c079f4cb7a199e81217d508c5">
           <bounds x="737" y="26" width="235" height="256"/>
-          <child xsi:type="archimate:DiagramObject" id="id-da0fa1ba7b18457ab0a91e8018480aff" fillColor="#e6e6e6" archimateElement="id-4ed36bfa73934f1db27c3845af2f7ba0">
+          <child xsi:type="archimate:DiagramObject" id="id-da0fa1ba7b18457ab0a91e8018480aff" fillColor="#fff2cc" archimateElement="id-4ed36bfa73934f1db27c3845af2f7ba0">
             <bounds x="10" y="30" width="215" height="36"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-417eadf4ba1b42db8d20911b130e7f34" fillColor="#e6e6e6" archimateElement="id-4574fd556b844770ad1971e1fe84aab0">
@@ -1273,12 +1273,12 @@
             <bounds x="246" y="32" width="220" height="36"/>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-bfc55c9790a04e188764b9ff3affa382" fillColor="#f2f2f2" archimateElement="id-e644abd9dfc6429f96faa13c2460cbae">
+        <child xsi:type="archimate:DiagramObject" id="id-bfc55c9790a04e188764b9ff3affa382" fillColor="#ffe699" archimateElement="id-e644abd9dfc6429f96faa13c2460cbae">
           <bounds x="492" y="26" width="478" height="80"/>
           <child xsi:type="archimate:DiagramObject" id="id-f2688c3e7c20451bb198b5809b0e3589" fillColor="#f2f2f2" archimateElement="id-00d610d0f04e453ca5fba342f1c45a49">
             <bounds x="10" y="32" width="220" height="36"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c6f44774fa774782b3cc79290884b1df" fillColor="#ffe699" archimateElement="id-4f694d5cdf6f4ac69a8cb6321578b317">
+          <child xsi:type="archimate:DiagramObject" id="id-c6f44774fa774782b3cc79290884b1df" fillColor="#f4b183" archimateElement="id-4f694d5cdf6f4ac69a8cb6321578b317">
             <bounds x="248" y="32" width="220" height="36"/>
           </child>
         </child>
