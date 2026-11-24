@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="OnTrack" id="id-8df17fd651ce41e1a48049f5d61461fb" version="5.0.0">
   <folder name="Strategy" id="id-1647a507808e4ba280727753daaf1e8f" type="strategy">
     <element xsi:type="archimate:CourseOfAction" name="Staged growth over three years" id="id-33fa1aed4be745e4b2a0d8a7fb8d6b6d">
@@ -894,226 +894,198 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-2c12741095474b46804ae3a1be29d725" source="id-84b0c4536b214d518df85cb4ca733da1" target="id-530979d564ef46409030dcd884c1600c" archimateRelationship="id-f831e118a923486f994ec906524b9511"/>
       </child>
     </element>
-    <element xsi:type="canvas:CanvasModel" name="Business Model Canvas" id="id-915964f8c925413ebf20d8a5410cae34" hintTitle="Business Model Canvas">
-      <child xsi:type="canvas:CanvasModelBlock" id="id-c31dbb730be146e3843a72236661b214" textAlignment="1" borderColor="#000000" hintTitle="Key Partnerships">
-        <bounds x="12" y="12" width="229" height="577"/>
-        <content>Key Partnerships</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-46b21a159bb740e8810418ded857f88a" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="54"/>
-          <content>Carriers (bpost, PostNL, DHL, DPD, GLS): parcel data through their APIs</content>
+    <element xsi:type="canvas:CanvasModel" name="Business Model Canvas" id="id-915964f8c925413ebf20d8a5410cae34">
+      <child xsi:type="canvas:CanvasModelBlock" id="id-33c49fc7cd8c4a5eb4e47ac6d13c1c03" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="10" y="10" width="200" height="440"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-be68da26610f4ef3b800206c9d9b065e" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="44"/>
+          <content>Carriers: bpost, PostNL, DHL, DPD, GLS</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-1028f6d287e0479dbc627169e81e1592" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="92" width="205" height="40"/>
-          <content>Webshops: checkout integration</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-a3d43f0a276c4d95a60fa86ccd5614fb" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="76" width="184" height="44"/>
+          <content>Webshops (checkout integration)</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-bd8849c539ff4c44a84e51af8884fc3a" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="12" y="136" width="205" height="40"/>
-          <content>Pickup points: locations and opening hours</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-afc8d4d16c464bd9881673506cb86343" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="126" width="184" height="44"/>
+          <content>Pickup point networks</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-ae73272dd709490d977202af2ed250b1" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="180" width="205" height="40"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-31f2bc59068c46ccbc55eadd5f5b6715" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="176" width="184" height="44"/>
           <content>Cloud and messaging providers</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-ee320f31633549d3abbc0b903b1ec099" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="224" width="205" height="40"/>
-          <content>App stores</content>
-        </child>
+        <content>Key partners</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-04e72b8e4fab4646a6b8993d24935583" textAlignment="1" borderColor="#000000" hintTitle="Key Activities">
-        <bounds x="240" y="12" width="229" height="289"/>
-        <content>Key Activities</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-2c37526ce8fb4578bfe98e0415337fe7" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="38"/>
-          <content>Parcel bundling: maintain carrier connectors</content>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-a0c216c8487d45b8b7c9473fe31d6ba5" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="214" y="10" width="200" height="220"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-6f39254cd59a403dbb496764316ca3a9" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="34"/>
+          <content>Maintain carrier connectors</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-fa94b13cec6844e5a6e5416fe61c07b4" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="76" width="205" height="38"/>
-          <content>Recipient profiling: manage opt-in profiles</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-8424d02df16f4aab8772ddcc5f92e5b6" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="64" width="184" height="34"/>
+          <content>Improve the decision model</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-79285b0447c346b3b22eecc10aecf44d" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="118" width="205" height="38"/>
-          <content>Delivery optimisation: improve the decision model</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-b65b0e2686f24d2d9cb42529803f782b" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="102" width="184" height="34"/>
+          <content>Onboard recipients, manage profiles</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-edfdc3594fc54861accbbad3a36a123a" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="160" width="205" height="38"/>
-          <content>Carrier and webshop partnering: integrate and bill</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-af4458a1f77a481da00659d0f4277e57" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="140" width="184" height="34"/>
+          <content>Sign and serve carriers and webshops</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-6796e06a56c749dbb0e86f5109829638" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="202" width="205" height="38"/>
-          <content>Recipient acquisition and support</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-3c546e6c011d4e639107f4caca0ec922" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="244" width="205" height="38"/>
-          <content>App development and cloud platform operations</content>
-        </child>
+        <content>Key activities</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-7a2501a80c084076a380e79a0be1cebb" textAlignment="1" borderColor="#000000" hintTitle="Key Resources">
-        <bounds x="240" y="300" width="229" height="289"/>
-        <content>Key Resources</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-6b4fca1d785e422987a7dfa1144fe195" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="30"/>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-30d4d1fcdf7c415c8385d9681e173f09" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="214" y="234" width="200" height="216"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-dc4922ff7ad140ea9737d1dc71701f06" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="30"/>
           <content>Carrier connectors</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-b049c25d96584f2ba2592177125838f4" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="68" width="205" height="30"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-7911f2d2f85c456389189c2ba9ce5f7f" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="60" width="184" height="30"/>
           <content>Recipient profiles</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-01334506239546629b3fb927753e2fc2" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="102" width="205" height="30"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-de95bc09272749a68f7a7ad275ecd6cd" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="94" width="184" height="30"/>
           <content>Parcel data</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-70235270d36e473cb0600f1c031fc5e7" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="136" width="205" height="30"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-6c15b7fdc1ba4501b00cf7e2b09e3ce6" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="128" width="184" height="30"/>
           <content>Decision model</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-f190c053fda144029fc73f6246b27b55" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="170" width="205" height="30"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-9be50225d9124f66a7ba378b5a8144c7" fillColor="#fde9d9" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="162" width="184" height="30"/>
           <content>Partner contracts</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-b1b7555e61274c908f0b677c9d4578b3" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="204" width="205" height="30"/>
-          <content>Carrier integration competence</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-8aa7eba378aa40d69e1f292ed0875b06" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="238" width="205" height="30"/>
-          <content>Data science competence</content>
-        </child>
+        <content>Key resources</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-4385f0e8c13a401cb3f5b72cce378983" textAlignment="1" borderColor="#000000" hintTitle="Value Propositions">
-        <bounds x="468" y="12" width="229" height="577"/>
-        <content>Value Propositions</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-db6515e4d1784ca1a2e8335d9e32f9a2" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="54"/>
-          <content>Recipients: all parcels of all carriers in one free app</content>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-aa83e7d7af6e42648188bd39bc85afe6" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="418" y="10" width="200" height="440"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-27674365251c4173b7ebda067777d88d" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="54"/>
+          <content>Recipients: all parcels in one app</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-00c20149bf9e4e799f5a656d7cace493" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="92" width="205" height="54"/>
-          <content>Recipients: fewer missed deliveries through delivery optimisation</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-a7c070e0472a4b0095285d22edbb2923" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="88" width="184" height="54"/>
+          <content>Recipients: fewer missed deliveries</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-cad4aac833f844cd9e508b05175fd23c" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="150" width="205" height="54"/>
-          <content>Recipients: privacy by design, opt-in recipient profile</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-31a77d3782094b44a5284b4bb0798b9f" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="208" width="205" height="54"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-1cc6e3c17cb04d3eb51e3e74787e88fd" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="150" width="184" height="54"/>
           <content>Carriers and webshops: fewer failed first attempts</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-fdc11bc7b4a54876afe593a54a36c26e" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="266" width="205" height="54"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-4d345b00ff534d5b955fb0ae3bcc9beb" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="212" width="184" height="54"/>
           <content>Carriers and webshops: lower cost per delivered parcel</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-95a98faf0ea44f63a9d4a75ad57d8c38" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="12" y="324" width="205" height="54"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-467cc7d51c2b41c7a9304f434f4fee95" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="274" width="184" height="54"/>
           <content>Pickup points: more parcels directed to them</content>
         </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-bee93060f45842d4b680d7bad5e96c6a" fillColor="#dbe5f1" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="336" width="184" height="54"/>
+          <content>Everyone: privacy by design, opt-in profile</content>
+        </child>
+        <content>Value propositions</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-7083f0b47a1147dda1294e2862be51d0" textAlignment="1" borderColor="#000000" hintTitle="Customer Relationships">
-        <bounds x="696" y="12" width="229" height="289"/>
-        <content>Customer Relationships</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-ae5601773c554c78832edcaee9899dc8" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="40"/>
-          <content>Recipients: self-service app with parcel notifications</content>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-05bb8507e9574248ad1510eaae860524" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="622" y="10" width="200" height="220"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-35c324de64d5456293789ff6ff96b5a1" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="34"/>
+          <content>Self-service app</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-2e16a92088f041598aa3eac7ab8f93f2" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="78" width="205" height="40"/>
-          <content>Recipients: control over their own profile data</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-10a860aca2934620bf6bcc912bc32759" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="64" width="184" height="34"/>
+          <content>Parcel notifications</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-3f66475ee902489cbf5e9af711c9c7be" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="122" width="205" height="40"/>
-          <content>Carriers and webshops: account management</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-66560011c2f242babbed62f1c1368526" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="102" width="184" height="34"/>
+          <content>Recipient controls own data</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-ca64b858bdd4464e95702cbe32a4fb99" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="12" y="166" width="205" height="40"/>
-          <content>Pickup points: account management</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-9d31c5de28164a8e9500d93c4cb7bbfc" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="140" width="184" height="34"/>
+          <content>Account management for partners</content>
         </child>
+        <content>Customer relationships</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-ff69359fa4424b79b5111db9e048475f" textAlignment="1" borderColor="#000000" hintTitle="Channels">
-        <bounds x="696" y="300" width="229" height="289"/>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-3f3ca376268d4f9e9fabb280fbee9d49" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="622" y="234" width="200" height="216"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-77c703f1ced54c7794df7b25cf991bfe" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="34"/>
+          <content>Mobile app in the app stores</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-94e31a395aea414b9ed6d1e41c33c308" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="64" width="184" height="34"/>
+          <content>Checkout integration in webshops</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-f69cea0bf748456fb654e0bd43c562db" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="102" width="184" height="34"/>
+          <content>Carrier APIs and notification e-mails</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-c9d552cac97c4038930328eff4b5450a" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="140" width="184" height="34"/>
+          <content>Direct sales to carriers and webshops</content>
+        </child>
         <content>Channels</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-4dcec1b7d4c649379a9fe44fb8f05f71" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="40"/>
-          <content>Recipients: mobile app in the app stores</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-6affd5a932894ed1b74e85924b3791ab" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="78" width="205" height="40"/>
-          <content>Recipients: checkout integration in webshops</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-4aedbe9a2edc48aabfda2756f490170e" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="122" width="205" height="40"/>
-          <content>Carriers and webshops: direct sales</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-edf6328be5fe4810b20407279d11b7fc" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="12" y="166" width="205" height="40"/>
-          <content>Pickup points: direct sales</content>
-        </child>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-6408434c5b9f48bf8f3b48a551260143" textAlignment="1" borderColor="#000000" hintTitle="Customer Segments">
-        <bounds x="924" y="12" width="229" height="577"/>
-        <content>Customer Segments</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-cece9bff7aed45fe844abcf455f08a71" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="205" height="54"/>
-          <content>Recipients who often order online, Belgium first, then the Benelux</content>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-459b9305e279426db2cf356811bcd8ff" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="826" y="10" width="200" height="440"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-8cc98b2f32254c2195383b0f3dd5d00b" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="184" height="54"/>
+          <content>Recipients: frequent online shoppers, Belgium first, then Benelux</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-0a7854eb16c9452e9c370a6525a7eed0" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="92" width="205" height="40"/>
-          <content>Carriers and webshops</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-709109e7e8fb45eba5dd0469fcaa6fc9" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="88" width="184" height="54"/>
+          <content>Carriers</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-ba559c26877c4db2add029fa865a96c0" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="12" y="136" width="205" height="40"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-b17923650d5a487fa877e59635d6e690" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="150" width="184" height="54"/>
+          <content>Webshops</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-330752cf46ec40698db59e7424356408" fillColor="#e2efda" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="212" width="184" height="54"/>
           <content>Pickup points</content>
         </child>
+        <content>Customer segments</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-b74d9a6bdc5a485baf29a6387d3407b1" textAlignment="1" borderColor="#000000" hintTitle="Cost Structure">
-        <bounds x="12" y="588" width="570" height="181"/>
-        <content>Cost Structure</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-4b3e1c3371af461280c25cfdef51047d" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="267" height="38"/>
-          <content>Development and data science team</content>
-        </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-8d0529970e0141a38801be6e9ca30a99" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="291" y="34" width="267" height="38"/>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-29a17a6de69a43f3b1ff6a4f23ff9cd3" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="10" y="454" width="508" height="170"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-9414bb44adc74ac69733c29b0418dc6b" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="242" height="34"/>
           <content>Cloud hosting and data processing</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-3fb43198ce6549f7a9f6297740db6314" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="76" width="267" height="38"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-dab924eb1a4a45f090bb10fc3fe7fb8b" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="254" y="26" width="242" height="34"/>
+          <content>Development and data science team</content>
+        </child>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-516723e3cdb04bd5871861a6e3146473" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="64" width="242" height="34"/>
           <content>Carrier connector maintenance</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-8379e17f90834fa38e062d47547feb21" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="291" y="76" width="267" height="38"/>
-          <content>Sales, marketing and recipient support</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-02a04bb28cc0442a9177296e9b22d411" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="254" y="64" width="242" height="34"/>
+          <content>Sales, support and marketing</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-e50891afb18a402d9dec5d9fec4cc69e" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-          <bounds x="12" y="118" width="267" height="38"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-d369144a85b0474d8ecbe0525bd7e276" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="102" width="242" height="34"/>
           <content>Privacy and legal compliance</content>
         </child>
+        <content>Cost structure</content>
       </child>
-      <child xsi:type="canvas:CanvasModelBlock" id="id-45ec853831a049fe9d26be23798662fb" textAlignment="1" borderColor="#000000" hintTitle="Revenue Streams">
-        <bounds x="581" y="588" width="572" height="181"/>
-        <content>Revenue Streams</content>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-6f34d62279cf4d879f4e742394e8901a" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-          <bounds x="12" y="34" width="268" height="38"/>
-          <content>Carriers: subscription</content>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-50200a4d6ae14697a442ecb4799c3669" textAlignment="1" fillColor="#ffffff" borderColor="#5c5c5c">
+        <bounds x="522" y="454" width="504" height="170"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-c74aff54029d4f9aba14be7cffaacfc7" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="26" width="240" height="34"/>
+          <content>Carriers and webshops: subscription or fee per optimised parcel</content>
         </child>
-        <child xsi:type="canvas:CanvasModelSticky" id="id-6be4f985b769464db860d881f6c4b57b" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-          <bounds x="292" y="34" width="268" height="38"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-9220e584b8f441c3b82da0ef8cb496eb" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="252" y="26" width="240" height="34"/>
           <content>Pickup points: commission per parcel</content>
         </child>
-      </child>
-      <child xsi:type="canvas:CanvasModelSticky" id="id-4c8b03aa0e0041aa938af7e2d7a1cda2" textAlignment="2" textPosition="1" fillColor="#dbe5f1" borderColor="#9a9a9a">
-        <bounds x="12" y="777" width="182" height="28"/>
-        <content>Recipients</content>
-      </child>
-      <child xsi:type="canvas:CanvasModelSticky" id="id-d24058e672244951a6f520c0b3a40886" textAlignment="2" textPosition="1" fillColor="#e2efda" borderColor="#9a9a9a">
-        <bounds x="202" y="777" width="182" height="28"/>
-        <content>Carriers and webshops</content>
-      </child>
-      <child xsi:type="canvas:CanvasModelSticky" id="id-2dd830ca178d442b851925930d867f58" textAlignment="2" textPosition="1" fillColor="#fde9d9" borderColor="#9a9a9a">
-        <bounds x="392" y="777" width="182" height="28"/>
-        <content>Pickup points</content>
-      </child>
-      <child xsi:type="canvas:CanvasModelSticky" id="id-90fe8e66367241dab95e9ba8416c4aa3" textAlignment="2" textPosition="1" fillColor="#fff2cc" borderColor="#9a9a9a">
-        <bounds x="582" y="777" width="182" height="28"/>
-        <content>Whole business model</content>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-22d56e6c9b234e189aea850f361fc408" fillColor="#f2f2f2" borderColor="#9a9a9a" textPosition="1">
+          <bounds x="8" y="64" width="240" height="34"/>
+          <content>Recipients: the app is free</content>
+        </child>
+        <content>Revenue streams</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Capability Map" id="id-19c981177fcd4321aeac11cd604e0c34">
@@ -1311,7 +1283,7 @@
       </child>
       <child xsi:type="archimate:Note" id="id-d1bb828a3d5e41c295615ce1c6bb6578" fillColor="#a9d08e">
         <bounds x="840" y="75" width="140" height="50"/>
-        <content>Extend&#13;
+        <content>Extend&#xD;
 </content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-bfa0d07d07ab4b549799d4f7f4b88db4" archimateElement="id-67615cc392854c379a99c5c970049f60">
@@ -2610,11 +2582,11 @@
       </child>
       <child xsi:type="archimate:Note" id="id-0e7a999fbe1943c396e9f84276b0619f" textAlignment="1" fillColor="#fce4d6">
         <bounds x="20" y="540" width="465" height="45"/>
-        <content>SWOT weakness "no profiles yet" → self-service onboarding in the app, building opt-in profiles.</content>
+        <content>SWOT weakness &quot;no profiles yet&quot; → self-service onboarding in the app, building opt-in profiles.</content>
       </child>
       <child xsi:type="archimate:Note" id="id-2ec76a3cd4ac445bb0814ad91952b008" textAlignment="1" fillColor="#fff2cc">
         <bounds x="495" y="540" width="465" height="45"/>
-        <content>SWOT threat "privacy concerns, GDPR" → explicit opt-in per data use, consent record, privacy officer.</content>
+        <content>SWOT threat &quot;privacy concerns, GDPR&quot; → explicit opt-in per data use, consent record, privacy officer.</content>
       </child>
     </element>
   </folder>
