@@ -535,7 +535,7 @@
     <element xsi:type="archimate:Goal" name="Effortless parcel delivery for recipients" id="id-00ae0a9e7d564b86be7d7f028d42aa1b"/>
     <element xsi:type="archimate:Goal" name="Lower cost per delivered parcel" id="id-0e03191d1a12411380186dbe2f1c4596"/>
     <element xsi:type="archimate:Outcome" name="All parcels visible in one app" id="id-cf3fecf971c5460f87db1ff1f32f3ce3"/>
-    <element xsi:type="archimate:Goal" name="Lowered cost per delivered parcels" id="id-8db73494e07549cfbbfbf02a73905928"/>
+    <element xsi:type="archimate:Goal" name="Lowered cost per delivered parcel" id="id-8db73494e07549cfbbfbf02a73905928"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-c05d0808347a4dfa8fbbe3df663b963c" type="implementation_migration">
     <element xsi:type="archimate:Plateau" name="3 months: prototype" id="id-99a5e834cc53418e82c2133febf2f3f8">
